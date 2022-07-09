@@ -192,7 +192,7 @@ Jó munkát!
         INNER JOIN `country`
         ON `country`.`Code` = `city`.`CountryCode`
         WHERE `country`.`Region` = 'Nordic Countries'
-        ORDER BY `country`.`Code`;
+        ORDER BY `country`.`Code`, `country`.`Population` DESC;
 */
 
 
